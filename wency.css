@@ -1,0 +1,113 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+  color: #2c3e50;
+}
+
+.navbar {
+  background-color: #3498db;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.add-task-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: #3498db;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-task-button:hover {
+  background-color: #2980b9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-check-label {
+  margin-left: 5px;
+}
+
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  border-bottom: none;
+  background-color: #3498db;
+  color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-header .close {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+#taskListContainer {
+  margin-top: 20px;
+}
+
+.edit-delete-icon {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #e74c3c;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #e74c3c;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edit-delete-icon:hover {
+  background-color: #e74c3c;
+  color: #ffffff;
+  border-color: #c0392b;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.low-priority {
+  background-color: #2ecc71; /* Yeşil */
+  color: #ffffff;
+}
+
+.medium-priority {
+  background-color: #f1c40f; /* Sarı */
+  color: #ffffff;
+}
+
+.high-priority {
+  background-color: #e74c3c; /* Kırmızı */
+  color: #ffffff;
+}
